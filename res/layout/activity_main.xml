@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:orientation="vertical"
+     android:id="@+id/MainContainer"
+    >
+        <ImageView
+            android:id="@+id/coverImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+      <!--   <ImageView
+            android:id="@+id/nativeAdIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp" >
+
+            <TextView
+                android:id="@+id/nativeAdTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/nativeAdBody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="2"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+             <TextView
+                android:id="@+id/nativeAdSocialContext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="2"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout> -->
+    
+</LinearLayout>

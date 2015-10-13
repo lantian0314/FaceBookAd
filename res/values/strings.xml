@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NativeAds</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loading_status">Requesting an ad...</string>
+    <string name="load_interstitial">Load Interstitial</string>
+    <string name="show_interstitial">Show!</string>
+
+</resources>
