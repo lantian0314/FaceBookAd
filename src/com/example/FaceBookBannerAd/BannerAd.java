@@ -17,8 +17,18 @@ public class BannerAd extends Activity {
 		setContentView(R.layout.activity_main);
 		adView = new AdView(this, "1525523984400914_1651354238484554",
 				AdSize.BANNER_HEIGHT_50);
+		// ‹÷⁄Õ¯¬Á320*250
+		/*adView = new AdView(this, "1525523984400914_1651354238484554",
+				AdSize.RECTANGLE_HEIGHT_250);*/
+		/*adView = new AdView(this, "1525523984400914_1651354238484554",
+				AdSize.BANNER_320_50);*/
 		LinearLayout layout=(LinearLayout) findViewById(R.id.MainContainer);
 		layout.addView(adView);
 		adView.loadAd();
+	}
+	@Override
+	protected void onDestroy() {
+		adView.destroy();
+		super.onDestroy();
 	}
 }
