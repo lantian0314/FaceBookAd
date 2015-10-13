@@ -24,6 +24,27 @@ public class BannerAd extends Activity {
 				AdSize.BANNER_320_50);*/
 		LinearLayout layout=(LinearLayout) findViewById(R.id.MainContainer);
 		layout.addView(adView);
+		adView.setAdListener(new AdListener() {
+			
+			@Override
+			public void onError(Ad arg0, AdError arg1) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void onAdLoaded(Ad arg0) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void onAdClicked(Ad arg0) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+		
 		adView.loadAd();
 	}
 	@Override
